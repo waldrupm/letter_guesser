@@ -14,7 +14,7 @@ def display(word_rep, guesses, letters_guessed):
     print("-" * 50)
     print(f"your guesses left are {guesses}")
     print("Here are all the Letters you have guess")
-    print(format_word_rep(word_rep)) # This should be letters_guessed
+    print(letters_guessed) # This should be letters_guessed
     print("-" * 50)
     print("What word is this???")
     print(format_word_rep(word_rep))
